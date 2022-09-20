@@ -25,10 +25,5 @@ h5, p{
     width: 80px;
     color: snow;
 }
-.song{
-    text-decoration: underline;
-}
-.speech{
-
-    text-decoration: solid;
-}
+.song{text-decoration: underline;}
+.speech{ text-decoration: solid;}
