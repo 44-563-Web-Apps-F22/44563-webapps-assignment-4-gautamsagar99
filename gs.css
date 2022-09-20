@@ -27,3 +27,20 @@ h5, p{
 }
 .song{text-decoration: underline;}
 .speech{ text-decoration: solid;}
+
+table,td,th{
+    border: 2px solid;
+
+}
+th,td{
+    padding: 10px;
+}
+.table1{
+
+    border-collapse: collapse;
+    /* padding: 3px; */
+    background-color: forestgreen;
+    padding: auto;
+    text-align: center;
+    box-shadow: 15px 15px 10px gray ;
+}
