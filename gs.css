@@ -56,7 +56,7 @@ th,td{
     text-align: center;
     box-shadow: 5px 5px 10px gray ;
 }
-a{
+.nextpage{
     text-decoration: none;
     border: 3px solid black;
     padding: 3px;
@@ -65,4 +65,23 @@ a{
     background-color: black;
     color: white;
 
+}
+.navbar-horizontal{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    
+}
+
+.navbar-horizontal li{
+
+    background-color: aqua;
+    color: white;
+    float: left;
+    
+}
+.navbar-horizontal a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
 }
