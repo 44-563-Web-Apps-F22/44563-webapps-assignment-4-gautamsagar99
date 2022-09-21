@@ -10,42 +10,57 @@ h5, p{
     background-color: black;
     color: white;
 }
-.butname{
+/* .butname{
     background-color: antiquewhite;
     width: 80px;
     color: darkgreen;
-    
+} */
+.BUT{
+    /* background-color: antiquewhite; */
+    /* width: 80px; */
+    color: darkgreen;
+}
+.CAP{
+    /* background-color: tomato; */
+    /* width: 80px; */
+    color: darkorchid;
+}
+.JOS{
 
-
+    /* background-color: orange; */
+    /* width: 80px; */
+    color: brown;
 }
 .butname:hover{
     border: 2px solid black;
-    box-shadow: 2px 2px 2px black;
+    text-shadow: 2px 2px 2px black;
 
 }
 .capname:hover{
     border: 2px solid black;
-    box-shadow: 2px 2px 2px black;
+    text-shadow: 2px 2px 2px black;
 }
-.capname{
+/* .capname{
     background-color: tomato;
     width: 80px;
     color: floralwhite;
-}
-.josname{
-    background-color: orange;
-    width: 80px;
-    color: snow;
+} */
+.josname:hover{
+    border: 2px solid black;
+    text-shadow: 2px 2px 2px black;
 }
 .song{text-decoration: underline;}
 .speech{ text-decoration: solid;}
 
 table,td,th{
-    border: 2px solid;
+    border: 3px solid;
 
 }
 th,td{
     padding: 10px;
+}
+tr:nth-child(odd){
+    background-color: chartreuse;
 }
 .table1{
 
